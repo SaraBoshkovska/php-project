@@ -1,0 +1,12 @@
+{
+    "name": "sarab/php-project",
+    "authors": [
+        {
+            "name": "Sara Boshkovska",
+            "email": "sara_boskovska@hotmail.com"
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer": "^6.9"
+    }
+}
