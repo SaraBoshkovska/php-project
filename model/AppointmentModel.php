@@ -9,7 +9,7 @@ class AppointmentModel
     {
         $this->db = $db;
     }
-    public function isTimeSlotAvailable($serviceId, $appointmentDate, $appointmentTime)
+public function isTimeSlotAvailable($serviceId, $appointmentDate, $appointmentTime)
 {
     $query = "
         SELECT COUNT(*) as count 

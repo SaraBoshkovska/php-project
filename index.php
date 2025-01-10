@@ -43,17 +43,11 @@ $action = filter_input(INPUT_GET, 'action');
 $userController = new UserController();
 
 switch ($action) {
-    case 'show_register_form':
-        $userController->show_register_form();
-        break;
     case 'register':
         $userController->register();
         break;
     case 'login':
         $userController->login();
-        break;
-    case 'show_login_form':
-        $userController->show_login_form();
         break;
     case 'logout':
         $userController->logout();
