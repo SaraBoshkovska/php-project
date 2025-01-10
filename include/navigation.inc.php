@@ -41,7 +41,7 @@
       <a class="nav-link" style="color:azure" ><?php echo htmlspecialchars($_COOKIE['username']); ?></a>
       </li>
       <li class="nav-item">
-       <a class="nav-link" href="../php-project/index.php?action=logout" style="color:azure">Logout</a>
+       <a class="nav-link" href="/php-project/index.php?action=logout" style="color:azure">Logout</a>
         </li>
        <?php else: ?>
       <li class="nav-item">
